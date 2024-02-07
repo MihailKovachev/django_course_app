@@ -8,13 +8,11 @@
 *.pot
 *.pyc
 
-src/automax/__pycache__/
-src/automax/local_settings.py
-src/automax/db.sqlite3
-src/db.sqlite3
-src/automax/db.sqlite3-journal
-src/automax/db.sqlite3-journal
-src/automax/media
+**/__pycache__/
+**/local_settings.py
+**/db.sqlite3
+**/db.sqlite3-journal
+**/media
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
